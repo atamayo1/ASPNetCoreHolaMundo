@@ -1,4 +1,4 @@
-**Crear proyecto en ASP.Net Core:**
+**Comenzamos Creando un Proyecto en ASP.Net Core:**
 **Escribir en el Terminal:** dotnet new mvc -o ASPNetCoreHolaMundo
 
 
