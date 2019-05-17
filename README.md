@@ -1,15 +1,14 @@
-**Comenzamos Creando un Proyecto en ASP.Net Core:**
-**Escribir en el Terminal:** dotnet new mvc -o ASPNetCoreHolaMundo
 
+**Comenzamos Creando un Proyecto en ASP.Net Core:**
+    **Escribir en el Terminal:** dotnet new mvc -o ASPNetCoreHolaMundo
 
 **Modificaciones que se hicieron en este proyecto**
 
-
 **Para ejecutar la app web** 
-**Comando en MAC:** fn F5
-**Comando en Windows:** F5
+    **Comando en MAC:** fn F5
+    **Comando en Windows:** F5
 
-**Models/Escuela**
+**Models/Escuela.cs**
 
     namespace HolaMundoMVC.Models
     {
@@ -21,7 +20,7 @@
         }
     }
 
-**Views/Escuela/Index** 
+**Views/Escuela/Index.cshtml** 
 
     @model Escuela
 
@@ -36,7 +35,7 @@
     <p><i>@ViewBag.CosaDinamica ViewBag</i></p>
     <p><i>@ViewData["CosaDinamica"] ViewData</i></p>
 
-**Controllers/EscuelaControllers**
+**Controllers/EscuelaControllers.cs**
 
     using System;
     using Microsoft.AspNetCore.Mvc;
@@ -60,7 +59,7 @@
         }
     }
 
-**Shared/_Simple**
+**Shared/_Simple.cshtml**
 
     <!DOCTYPE html>
     <html>
