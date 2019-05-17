@@ -1,6 +1,14 @@
 
 **Comenzamos Creando un Proyecto en ASP.Net Core:**
     **Escribir en el Terminal:** dotnet new mvc -o ASPNetCoreHolaMundo
+    **Para crear una aplicación de consola:** dotnet new console
+
+**Ver Versión de netcoreapp**
+	cat ./ASPNetCoreConsole.csproj
+
+**Correr y Compilar el programa**
+	**Para correr nuestra app:** dotnet run
+	**Para compilar nuestra app:** dotnet build
 
 **Modificaciones que se hicieron en este proyecto**
 
