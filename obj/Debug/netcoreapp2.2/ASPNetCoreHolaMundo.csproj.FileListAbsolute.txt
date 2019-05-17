@@ -29,3 +29,4 @@
 /Users/anthony/ASPNetCoreHolaMundo/obj/Debug/netcoreapp2.2/ASPNetCoreHolaMundo.pdb
 /Users/anthony/ASPNetCoreHolaMundo/obj/Debug/netcoreapp2.2/ASPNetCoreHolaMundo.csproj.CopyComplete
 /Users/anthony/ASPNetCoreHolaMundo/obj/Debug/netcoreapp2.2/Razor/Views/Escuela/index.g.cshtml.cs
+/Users/anthony/ASPNetCoreHolaMundo/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Simple.g.cshtml.cs
