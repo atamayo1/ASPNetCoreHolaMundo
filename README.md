@@ -1,8 +1,13 @@
 **Crear proyecto en ASP.Net Core:**
-dotnet new mvc -o HolaMundoMVC
+**Escribir en el Terminal:** dotnet new mvc -o ASPNetCoreHolaMundo
+
+
+**Modificaciones que se hicieron en este proyecto**
+
 
 **Para ejecutar la app web** 
-**Comando:** fn F5
+**Comando en MAC:** fn F5
+**Comando en Windows:** F5
 
 **Models/Escuela**
 
@@ -54,3 +59,29 @@ dotnet new mvc -o HolaMundoMVC
             }
         }
     }
+
+**Shared/_Simple**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - ASPNetCoreHolaMundo</title>
+
+        <environment include="Development">
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        </environment>
+        <environment exclude="Development">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+                crossorigin="anonymous"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+        </environment>
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+    @RenderBody()
+    </body>
+    </html>
